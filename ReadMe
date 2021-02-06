@@ -1,0 +1,4 @@
+Install linuxGo and linuxGoPackage and then Type
+
+	% make
+	% ./myProgram
