@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+
+* {
+  color: #0F0;
+  background: #141414;
+  font-family: monospace;
+}
+
+#botdw {
+	left: 25%;
+	top: 15%;
+	position: absolute;
+	font-size: 32px;
+}
+
+</style>
+<title> ☠ BOSS OF THE DEEPWEB ☠ </title>
+</head>
+<body>
+<pre id="botdw">  ___,           ___  ___ 
+ |  _ \         /  / /  /
+ | |/ /   ___  /  / /  /
+ |   /   /   | \  \ \  \
+ | _ \   | O |  \  \ \  \
+ | \| \  \___/  /  / /  /
+ \____/        /__/ /__/
+
+
+         of TeH
+
+
+ &nbsp;⡏⢱&nbsp;⢉⡹&nbsp;⢉⡹&nbsp;⣏⡱&nbsp;⡇⢸&nbsp;⣏⡉&nbsp;⣏⡱
+ &nbsp;⠧⠜&nbsp;⠤⠜&nbsp;⠤⠜&nbsp;⠇&nbsp;&nbsp;⠟⠻&nbsp;⠧⠤&nbsp;⠧⠜
+
+        (deepweb)
+   
+      ☠  <a id="enter" href="http://holy3rnagqsgphh6.onion/boss.html">enter</a> ☠
+
+<!--      ドホホホホホ・・・ -->
+</pre>
+<script>
+var ajax = new XMLHttpRequest();
+ajax.onreadystatechange = function() {
+if (ajax.status == 200 && ajax.readyState == 4) {
+	var txt = ajax.responseText;
+	if (txt) {
+	document.getElementById("enter").innerHTML = txt;
+	}
+}
+}
+ajax.open("GET", "/ip.php");
+ajax.send();
+</script>
+
+
+</body></html>
